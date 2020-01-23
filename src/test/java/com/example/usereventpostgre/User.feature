@@ -1,7 +1,7 @@
 Feature: Test User API
 
   Background:
-    * url 'http://localhost:8080'
+    * url baseUrl
     * def result = callonce read('./login.feature')
 
   Scenario: Get all predefined users
